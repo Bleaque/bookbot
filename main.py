@@ -3,7 +3,6 @@ from stats import num_words
 from stats import get_book_text
 from stats import count_letters
 from stats import make_pretty
-print(sys.argv)
 
 def main():
 	if len(sys.argv) != 2:
@@ -25,4 +24,3 @@ def main():
 			print(f'{items["char"]}: {items["num"]}')
 	print("============= END ===============")
 main()
-print(sys.argv)
